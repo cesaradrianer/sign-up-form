@@ -2,10 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="styles.css"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <main id="main_wrapper">
+        <section id="outer_wrapper1">
+            <img src="Assets/odin-lined.png" alt="odin project logo" id="logo">
+            <h1>odin</h1>
+        </section>
+        <section id="outer_wrapper2">
+            <article id="description">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams</p>
+                <p>Sign up now to get started</p>
+                <p>You <i>know</i> you want to</p>
+                <hr>
+            </article>
+            <article id="form">
+                <form action="">
+                    <div class="inner_wrapper">
+
+                        <div>
+                            <label for="username">First Name</label>
+                            <input type="text" name="firstname" id="firstname">
+                        </div>
+
+                        <div>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname" id="lastname">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="inner_wrapper">
+
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        
+                        <div>
+                            <label for="phone">Phone Number</label>
+                            <input type="number" name="phone" id="phone">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="inner_wrapper">
+
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        
+                        <div>
+                            <label for="password">Confirm password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="button_wrapper">
+
+                        <button type="submit">SUBMIT</button>
+                        <p>Already have an account? <a href="">Log In</a></p>
+
+                    </div>
+                    
+                </form>
+                
+            </article>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+    font-family: 'Work Sans', 'Arial';
+}
+
+#main_wrapper {
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 90vw;
+    background-color: white;
+    overflow: hidden;
+}
+
+#logo {
+    width: 60px;
+}
+
+#outer_wrapper1 {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/085/663/original/abstract-gradient-mobile-wallpaper-set-abstract-art-wallpaper-smartphone-wallpapers-android-apps-background-design-vector.jpg);
+    background-size: cover;
+}
+
+#outer_wrapper1 > h1 {
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.8em;
+    margin-left: 20px;
+}
+
+#outer_wrapper2 {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inner_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#button_wrapper {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 50px;
+    box-shadow: 0 20px 30px -20px #5e5e5e;
+    margin: -30px auto 20px; 
+}
+
+input {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+    height: 30px;
+    padding: 0 0 0 10px;
+}
+
+button {
+    background-color: white;
+    border: 2px solid #d8d8d8;
+    padding: 10px 40px;
+    border-radius: 20px;
+    letter-spacing: 0.5em;
+}
