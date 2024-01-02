@@ -41,7 +41,7 @@
 
                         <div>
                             <label for="email"></label>
-                            <input type="email" name="email" id="email" placeholder="Email" required>
+                            <input pattern="[a-zA-Z0-9._+-]+@[a-zA-Z0-9 -]+\.[a-z]{2,}" type="email" name="email" id="email" placeholder="Email" required>
                         </div>
                         
                         <div>
@@ -55,7 +55,8 @@
 
                         <div>
                             <label for="password"></label>
-                            <input type="password" name="password" id="password" placeholder="Password" required>
+                            <input pattern="[a-zA-Z0-9]{8,}" type="password" name="password" id="password" placeholder="Password" required>
+                            <p id="password_info">At least 8 charachters long</p>
                         </div>
                         
                         <div>
@@ -67,7 +68,7 @@
                     
                     <div id="button_wrapper">
 
-                        <button type="submit">SUBMIT</button>
+                        <button type="submit" id="submit_button">SUBMIT</button>
                         <p>Already have an account? <a href="">Log In</a></p>
 
                     </div>
@@ -77,5 +78,6 @@
             </article>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
